@@ -4,40 +4,7 @@
         <title>Test</title>
     </head>
     <body>
-        <a href="https://www.google.com/">Google</a>
 
-
-        <script>
-            //This is a javascript section within an HTML file. On the real version of the website this will be linked and not embedded
-
-            class SchoolClass {
-                constructor(name) {
-                    this.name = name;
-                    this.createTimeMethod = function() {
-                        return Math.floor(Math.random() * 10);
-                    }
-                }
-
-                get randNum() {
-                    return Math.floor(Math.random() * 10);
-                }
-            }
-
-            SchoolClass.prototype.createTimeProto = function() {
-                return Math.floor(Math.random() * 10);
-            }
-
-
-            let testClass = new SchoolClass("Test");
-            alert(testClass.randNum);
-
-            var x = 0;
-            let y = 0;
-            const z = 0;
-
-            for(var i = 0; i < 10; i += 0.1) {
-                alert("Rhan is learning to count. He says: " + i);
-            }
-        </script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
